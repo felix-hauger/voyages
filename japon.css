@@ -95,11 +95,72 @@ h1 {
 
 /*******************section avec contenu***********************/
 
-.container-visit {
-    display: flex;
+.osaka {
+    background-image: url("https://subetenihon.fr/wp-content/uploads/elementor/thumbs/subete-menu-pklbwcydu5mdviyfwjde6hmaumiehe5ajmonptpao0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    padding-bottom: 30px; 
 }
 
+h2 {
+    /*text-align: center;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    background-color: #ffffffb8;*/
+}
 
+.container-visit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.container-visit img {
+    width: 35%;
+}
+
+.detail-box {
+    width: 40%;
+    font-size: 21px;
+    background-color: #ffffffb8;
+    border-radius: 6px;
+    padding: 23px;
+    
+}
+
+.titre-villes {
+    margin: auto;
+    width: 5%;
+    background-color: #ffffffb8;
+    padding: 20px;    
+    text-align: center;
+}
+
+.nara {
+    background-image: url("https://dailygeekshow.com/wp-content/uploads/2021/09/une-villes-japon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    padding-bottom: 30px; 
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.kyoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    padding-bottom: 30px;
+    padding-bottom: 30px; 
+}
+
+.titre-large {
+    width: 25%;
+}
 /************************animation****************************/
 
 
