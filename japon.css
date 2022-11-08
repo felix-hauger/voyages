@@ -27,7 +27,7 @@ header {
 }
 
 .header-container {
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: rgba(255, 255, 255, 72%);
     display: flex;
@@ -103,18 +103,18 @@ h1 {
     padding-bottom: 30px; 
 }
 
-h2 {
-    /*text-align: center;
+/*h2 {
+    text-align: center;
     padding-top: 47px;
     padding-bottom: 47px;
-    background-color: #ffffffb8;*/
-}
+    background-color: #ffffffb8;
+}*/
 
 .container-visit {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 45px;
+    padding-top: 45px;padding-bottom: 20px;
 }
 
 .container-visit img {
@@ -150,6 +150,7 @@ h2 {
     flex-direction: row-reverse;
 }
 
+
 .kyoto {
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,6 +161,45 @@ h2 {
 
 .titre-large {
     width: 25%;
+}
+
+/********************section gastronomie***************************/
+
+.gastronomie {
+    height: 100%;
+    background-color: #ffa4c9;
+}
+
+.gastronomie h2 {
+    padding-top: 53px;
+    padding-bottom: 23px;
+    text-align: center;
+}
+
+.intro-gastronomie {
+    width: 40%;
+    margin: auto;
+    font-size: 22px;
+    padding-bottom: 35px;
+}
+
+.container-gastronomie {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-plat {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-plat img {
+    width: 32%;
+}
+.detail-plat {
+    width: 30%;
 }
 /************************animation****************************/
 
