@@ -23,6 +23,7 @@ header nav {
     display: flex;
 }
 
+/* Liste contenant les liens de la nav */
 header nav > ul {
     display: flex;
     text-align: center;
@@ -31,14 +32,24 @@ header nav > ul {
 
 }
 
+/* Ajustement de la hauteur des li pour ajuster celles des liens a */
 header nav > ul > li {
-    /* position: relative; */
     height: 100%;
-    /* flex: 1; */
+}
+
+/* Disposition et style des liens principaux */
+header nav > ul > li > a {
+    /* position: absolute;
+    bottom: 0;
+    width: fit-content; */
+    height: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: center;
 }
 
 
-
+/* Styles et paddings des liens */
 header nav li a {
     background-color: #E75454;
     color: #ddd;
@@ -50,32 +61,36 @@ header nav li a {
     padding: 25px 18px;
 }
 
-header nav > ul > li > a {
-    /* position: absolute;
-    bottom: 0;
-    width: fit-content; */
-    height: 100%;
-    font-size: 22px;
-    font-weight: 600;
-    justify-content: center;
-}
-
 header nav li a:hover {
-    color: #E75454;
     background-color: #ddd;
+    color: #E75454;
 }
 
+
+/* Dispositions des sous-menus et de leurs contenus */
 header nav ul.sous-menu {
     display: flex;
     text-align: center;
     flex-direction: column;
 }
-/* 
-.menu_deroulant {
-    position: relative;
-}
-*/
-.sous-menu a {
+
+header nav .sous-menu a {
     font-weight: 600;
-    /* font-size: 18px; */
 } 
+
+/* Transition pour faire apparaître le menu caché */
+.menu-deroulant .sous-menu {
+    pointer-events: none;
+    transform: translateX(10%);
+    opacity: 0;
+    transition: all .5s ease-out;
+}
+
+.menu-deroulant:hover .sous-menu {
+    transform: translateX(0);
+    pointer-events: all;
+    opacity: 1;
+}
+
+
+
