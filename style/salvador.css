@@ -132,3 +132,61 @@ main h1 {
 
 
 /* partie footer */
+footer{
+    background-color: black;
+    color: white;
+   
+   
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 100%;
+}
+.description{
+    width: 20%;
+    margin: auto;
+    
+    
+   
+}
+.newlester{
+    padding-bottom: 5%;
+    border: solid red 2px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 5%;
+    background-color: #D2574B;
+    width: 70%;
+    height: 4vh;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    
+    
+    
+
+}
+.contacte{
+    padding-bottom: 5%;
+    display: flex;
+}
+.contactesuisse{
+    margin-top: 30%;
+    
+}
+.pcontacte{
+margin-top: 7%;
+}
+.test{
+    margin-top: 10%;
+}
+.droit{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+  
+
