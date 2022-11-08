@@ -49,16 +49,14 @@ header nav > ul > li > a {
 }
 
 
-/* Styles et paddings des liens */
+/* Styles et paddings des liens - ajouter text shadow ? */
 header nav li a {
     background-color: #E75454;
     color: #ddd;
     display: flex;
     align-items: center;
-    /* height: 90px; */
     text-decoration: none;
-    /* text-shadow: 0px 1px 2px 1px rgba(0,0,0,0.5); */
-    padding: 25px 18px;
+    padding: 22px 16px;
 }
 
 header nav li a:hover {
@@ -76,6 +74,7 @@ header nav ul.sous-menu {
 
 header nav .sous-menu a {
     font-weight: 600;
+    border-bottom: 2px solid #E75454;
 } 
 
 /* Transition pour faire apparaître le menu caché */
@@ -92,5 +91,75 @@ header nav .sous-menu a {
     opacity: 1;
 }
 
+/* Style liens additionnel */
 
+.btn-transition {
+    background: #E75454;
+    color: #ddd;
+    line-height: 42px;
+    /* padding: 0; */
+    border: none;
+}
+ .btn-transition span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.btn-transition:before,
+.btn-transition:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 2px;
+    background: #E75454;
+}
+.btn-transition:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+}
+.btn-transition:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+}
+.btn-transition:hover{
+    color: #E75454;
+    background: transparent;
+}
+.btn-transition:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+}
+.btn-transition:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+}
+.btn-transition span:before,
+.btn-transition span:after {
+    position: absolute;
+    content: "";
+    background: #E75454;
+}
+.btn-transition span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 2px;
+    transition: all 500ms ease;
+}
+.btn-transition span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    transition: all 500ms ease;
+}
+.btn-transition span:hover:before {
+    width: 100%;
+}
+.btn-transition span:hover:after {
+    width: 100%;
+}
 
