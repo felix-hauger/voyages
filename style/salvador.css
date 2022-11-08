@@ -140,27 +140,27 @@ footer{
 }
 .footer{
     display: flex;
-    justify-content: center;
+    text-align: center;
+    align-items: center;
     padding: 2%;
     width: 100%;
 }
-.description{
-    width: 20%;
-    margin: auto;
+.description,.contactes{
+    width: 33%;
+
     
     
    
 }
 .newlester{
-    padding-bottom: 5%;
+    padding: 2%;
     border: solid red 2px;
     text-decoration: none;
     color: white;
     display: block;
-    margin-top: 5%;
+    margin: 5% auto 0;
     background-color: #D2574B;
-    width: 70%;
-    height: 4vh;
+    width: 50%;
     text-align: center;
     font-family: arial;
     font-size: 15px;
@@ -170,18 +170,18 @@ footer{
 
 }
 .contacte{
-    padding-bottom: 5%;
-    display: flex;
+    /* padding-bottom: 5%;
+    display: flex; */
 }
 .contactesuisse{
-    margin-top: 30%;
+    /* margin-top: 30%; */
     
 }
 .pcontacte{
 margin-top: 7%;
 }
 .test{
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 .droit{
     text-align: center;
