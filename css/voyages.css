@@ -26,6 +26,11 @@ header .centrage {
     justify-content: space-between;
 }
 
+/* L'image ne dépassera pas du header */
+#header-logo {
+    max-height: 100%;
+}
+
 header nav {
     display: flex;
 }
