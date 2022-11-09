@@ -187,19 +187,23 @@ h1 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-}
-
-.container-plat {
-    width: 50%;
-    display: flex;
     justify-content: space-around;
 }
 
+.container-plat {
+    width: 690px;
+    display: flex;
+    justify-content: space-around;
+    margin: 21px;
+    align-items: center;
+}
+
 .container-plat img {
-    width: 32%;
+    width: 200px;
+    height: 200px;
 }
 .detail-plat {
-    width: 30%;
+    width: 368px;
 }
 /************************animation****************************/
 
