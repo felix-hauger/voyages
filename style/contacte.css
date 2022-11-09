@@ -13,11 +13,11 @@ form{
      border-radius: 5px;
     width: 40%;
     margin: auto;
-    padding: 4%;
+    padding: 1% 2% ;
    height: auto;
     background-color: white;
     min-height: 20px;
-    
+    border: solid black 2px;
     
 
 }
