@@ -1,0 +1,26 @@
+header,
+header nav li a,
+.btn-transition,
+.btn-transition:before,
+.btn-transition:after,
+.btn-transition span:before,
+.btn-transition span:after {
+    background-color: #002654;
+}
+
+.btn-transition:hover,
+header nav li a:hover {
+    color: #002654;
+}
+.btn-contact svg .remplissage {
+    stroke: rgba(#002654, 0.7);
+    fill: #002654;
+}
+
+header nav .sous-menu a {
+    border-bottom: 2px solid #002654;
+} 
+
+.menu-deroulant > a:hover::after {
+    background-image: url('../media/img/blue_arrow.svg');
+}
