@@ -15,11 +15,18 @@ header {
     width: 100%;
     background-color: #E75454;
     display: flex;
+}
+
+/* Pour centrer l'icône et la nav */
+header .centrage {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     justify-content: space-between;
 }
 
 header nav {
-    width: 40%;
     display: flex;
 }
 
@@ -28,8 +35,6 @@ header nav > ul {
     display: flex;
     text-align: center;
     align-items: flex-end;
-    /* box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.3); */
-
 }
 
 /* Ajustement de la hauteur des li pour ajuster celles des liens a */
@@ -39,9 +44,6 @@ header nav > ul > li {
 
 /* Disposition et style des liens principaux */
 header nav > ul > li > a {
-    /* position: absolute;
-    bottom: 0;
-    width: fit-content; */
     height: 100%;
     font-size: 22px;
     font-weight: 600;
@@ -64,6 +66,21 @@ header nav li a:hover {
     color: #E75454;
 }
 
+/* Flèche vers le bas pour les menus déroulants */
+.menu-deroulant > a::after {
+    background-image: url('../media/img/white_arrow.svg');
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    content: "";
+    margin-top: 4px;
+}
+
+.menu-deroulant > a:hover::after {
+    background-image: url('../media/img/red_arrow.svg');
+}
 
 /* Dispositions des sous-menus et de leurs contenus */
 header nav ul.sous-menu {
@@ -91,6 +108,7 @@ header nav .sous-menu a {
     opacity: 1;
 }
 
+
 /* Style liens additionnel */
 
 .btn-transition {
@@ -100,12 +118,14 @@ header nav .sous-menu a {
     /* padding: 0; */
     border: none;
 }
+
  .btn-transition span {
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
 }
+
 .btn-transition:before,
 .btn-transition:after {
     position: absolute;
@@ -114,34 +134,41 @@ header nav .sous-menu a {
     width: 2px;
     background: #E75454;
 }
+
 .btn-transition:before {
     right: 0;
     top: 0;
     transition: all 500ms ease;
 }
+
 .btn-transition:after {
     left: 0;
     bottom: 0;
     transition: all 500ms ease;
 }
+
 .btn-transition:hover{
     color: #E75454;
     background: transparent;
 }
+
 .btn-transition:hover:before {
     transition: all 500ms ease;
     height: 100%;
 }
+
 .btn-transition:hover:after {
     transition: all 500ms ease;
     height: 100%;
 }
+
 .btn-transition span:before,
 .btn-transition span:after {
     position: absolute;
     content: "";
     background: #E75454;
 }
+
 .btn-transition span:before {
     left: 0;
     top: 0;
@@ -149,6 +176,7 @@ header nav .sous-menu a {
     height: 2px;
     transition: all 500ms ease;
 }
+
 .btn-transition span:after {
     right: 0;
     bottom: 0;
@@ -156,9 +184,11 @@ header nav .sous-menu a {
     height: 2px;
     transition: all 500ms ease;
 }
+
 .btn-transition span:hover:before {
     width: 100%;
 }
+
 .btn-transition span:hover:after {
     width: 100%;
 }
