@@ -16,7 +16,7 @@ div {
     
 }
 .présentation {
-   border: yellow 5px solid;
+    border: yellow 5px solid;
     width: 408px;
     height: 259px;
     /*background-color: #06A3E6;
@@ -25,11 +25,12 @@ div {
     margin-top: 20px;*/
 }
 .image-présentation {
-   
+   border: solid 5px black;
 }
 .taille-div-img {
-  
+    border: solid 5px goldenrod;
 }
 .text {
+    border: solid 5px cyan;
     flex-direction: column;
 }
