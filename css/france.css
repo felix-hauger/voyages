@@ -10,10 +10,16 @@ header nav li a,
     background-color: #002654;
 }
 
-.btn-transition:hover,
+
 header nav li a:hover {
     color: #002654;
 }
+
+.btn-transition:hover {
+    color: #002654;
+    background-color: #dddddd8c;
+}
+
 .btn-contact svg .remplissage {
     stroke: rgba(#002654, 0.7);
     fill: #002654;
