@@ -1,3 +1,41 @@
+/*header*/
+header nav li a:hover {
+    background-color: white;
+}
+
+header,
+header nav li a,
+.btn-transition,
+.btn-transition:before,
+.btn-transition:after,
+.btn-transition span:before,
+.btn-transition span:after {
+    background-color: #06A3E6;
+}
+
+
+header nav li a:hover {
+    color: #06A3E6;
+}
+
+.btn-transition:hover {
+    color: #06A3E6;
+    background-color: white;
+}
+
+.btn-contact svg .remplissage {
+    stroke: rgba(#06A3E6, 0.7);
+    fill: #06A3E6;
+}
+
+header nav .sous-menu a {
+    border-bottom: 2px solid #06A3E6;
+} 
+
+.menu-deroulant > a:hover::after {
+    background-image: url('../img/grèce.svg');
+}
+
 /*section1*/
 body {
     margin: 0;
@@ -5,6 +43,10 @@ body {
 section {
     width: 100%
 }
+header nav ul * {
+    z-index: 1000;
+}
+
 #fix {
     position: fixed;
     display: flex;
