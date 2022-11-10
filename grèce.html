@@ -4,10 +4,47 @@
     <meta charset="utf-8">
     <title>La Grèce</title>
     <link href="css/grèce.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/voyages.css">
+    <link rel="stylesheet" href="style/footer.css">
   </head>
 
   <body>
-    <header></header>
+    <header>
+      <div class="centrage">
+          <a href="#"><img id="header-logo" src="media/img/wanderer_logo.png" alt="logo site web"></a>
+          <nav>
+              <ul>
+                  <li><a href="#">Accueil</a></li>
+                  <li class="menu-deroulant">
+                      <a href="#">Wanderers</a>
+                      <ul class="sous-menu">
+                          <li><a class="btn-transition" href="france.html">Félix</a></li>
+                          <li><a class="btn-transition" href="polynesie.html">Fériale</a></li>
+                          <li><a class="btn-transition" href="japon.html">Ibni</a></li>
+                          <li><a class="btn-transition" href="salvador.html">Jérôme</a></li>
+                          <li><a class="btn-transition" href="grece.html">Joris</a></li>
+                      </ul>
+                  </li>
+                  <li class="menu-deroulant">
+                      <a href="#">Continents</a>
+                      <ul class="sous-menu">
+                          <li><a class="btn-transition" href="europe.html">Europe</a></li>
+                          <li><a class="btn-transition" href="asie.html">Asie</a></li>
+                          <li><a class="btn-transition" href="amerique-centrale.html">Amérique Centrale</a></li>
+                          <li><a class="btn-transition" href="outre-mer.html">Outre-Mer</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <a class="btn-contact">
+                  <span>Contact</span>
+                  <svg>
+                      <polyline class="remplissage" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+                      <polyline class="ligne-animee" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+                  </svg>
+              </a>
+          </nav>
+      </div>
+  </header>
 
     <section>
         <div id="fix">
@@ -27,7 +64,7 @@
 
     <section id="hist">
       <div class="hist">
-        <h1>La Grece</h1>
+        <h1 class="h1">La Grece</h1>
         <p> La Grèce est un pays d’Europe du Sud et des Balkans. D'une superficie de 131 957 km2 pour un peu moins de onze millions d'habitants</p>
         <p>La Grèce est considérée comme le berceau de la civilisation occidentale, patrie des arts (théâtre, architecture), de la politique (Athènes est le berceau de la démocratie), de la philosophie (stoïcisme, épicurisme, aristotélisme) et des sciences (mathématiques, physique, médecine). La Grèce antique a légué à l'Europe un patrimoine culturel et linguistique colossal. </p>
         <p>C'est aujourd'hui une puissance moyenne. Son soft power s'articule autour de sa culture classique (héritage hellénique : Aristote, Sappho, Hypatie) et moderne (littérature grecque contemporaine qui a pour chantres Maria Polydouri et Nikos Kazantzakis, cinéma avec Theos Angelopoulos, Melina Mercouri et Irène Papas, cuisine riche et variée) ainsi que de son héritage architectural incommensurable (Parthénon, Temple de Poséidon, Cyclades, Sanctuaire d'Épidaure, Achilleion). Le pays est membre des Nations Unies, de l'Union Européenne, de l'OCDE et de l'OTAN (Organisation du traité de l'Atlantique Nord).</p>
@@ -37,7 +74,7 @@
     <section id="culinaire">
       <div class="grec1">
         <div class="cuisine">
-          <h1>Cuisine, gastronomie et boissons Grec</h1>
+          <h1 class="h1">Cuisine, gastronomie et boissons Grec</h1>
           <h2>Cuisine</h2>
           <p class="bloc-opac">Les Grecs n'ont pas été sous domination turque pour rien : c'est dans la cuisine que l'influence orientale se fait le plus sentir... Que d'huile !
             La plupart des tavernes ne servent pas de dessert, sauf, dans le meilleur des cas, du karpouzi (pastèque), du peponi (melon), du yaourti mé méli (yaourt au miel), du halva ou toute autre pâtisserie, qui sont alors offerts à la fin du repas (pas de carte des desserts).</p>
@@ -217,6 +254,22 @@
       </div>
     </section>
 
-    <footer></footer>
+    <footer>
+      <div class="footer">
+          <div class="description">
+              <p> Voyage est une agence spécialisé dans le voyage sur-mesure en Amérique du Nord,  Latine, en Asie et en Europe. Voyagez comme vous l’imaginez avec Voyage.</p>
+          </div>
+          <div class="description">
+              <p>NEWSLETTER</p>
+              <a class="newlester" href="">je m'inscris a la newslester</a>
+          </div>
+          <div class="description">
+              <p class="contacte">Contact france</p>
+              <p>04 50 46 90 28</p>
+              <p>info@al-voyage.com</p>
+          </div>
+      </div>
+      <p class="droit">Jérome LACROIX,Félix HAUGIER,Ibni-Yamine CHABANE,Fériale BOUREGA, Joris Landaret,formation Start</p>
+  </footer>
   </body>
 </html>
