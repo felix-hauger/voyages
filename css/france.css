@@ -1,3 +1,5 @@
+/* Style de header adapté pour la page France */
+
 header,
 header nav li a,
 .btn-transition,
@@ -23,4 +25,16 @@ header nav .sous-menu a {
 
 .menu-deroulant > a:hover::after {
     background-image: url('../media/img/blue_arrow.svg');
+}
+
+
+/* Main */
+
+#france-hero {
+    height: calc(100vh - 90px);
+    background-color: red;
+}
+
+#france-hero p {
+    background-color: rgba(120, 100, 100, 0.7);
 }
