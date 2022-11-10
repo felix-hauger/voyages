@@ -53,12 +53,12 @@ nav {
 
 /****************menu déroulant**************************/
 
-.sous-menu {
+/* .sous-menu {
     display: flex;
     flex-direction: column;
     position: absolute;
     display: none;
-}
+} */
 
 .navbar a {
     padding: 18px 0;
@@ -90,7 +90,7 @@ nav {
 
 
 /***************fin du menu déroulant *****************/
-header ul {
+/* header ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -99,7 +99,7 @@ header ul {
 header a {
     text-decoration: none;
     font-weight: bold;
-}
+} */
 
 .intro-box {
     margin: auto;
@@ -110,6 +110,17 @@ header a {
     font-size: 32px;
     text-shadow: 1px 1px red;
 }
+/* Ecrasement propriétés pour japon.html */
+header .centrage {
+    justify-content: space-around;
+}
+
+
+header nav > ul > li {
+    width: 100%;
+}
+
+
 /*************************end header***********************/
 
 /**************************section intro japan****************/

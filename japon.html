@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="japon.css">
+    <link rel="stylesheet" href="css/voyages.css">
+    <link rel="stylesheet" href="japon.css"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Wanderer - Japon</title>
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <img class="logo" src="logo voyage 2-1.png" alt="logo">
+        <div class="centrage">
+            <a href="#"><img id="header-logo" src="media/img/wanderer_logo.png" alt="logo site web"></a>
             <nav>
-                <ul class="navbar">
-                    <li><a href="">Accueil</a></li>
-                    <li>
-                        <a href="">Continents</a>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li class="menu-deroulant">
+                        <a href="#">Wanderers</a>
+                        <ul class="sous-menu">
+                            <li><a class="btn-transition" href="france.html">Félix</a></li>
+                            <li><a class="btn-transition" href="polynesie.html">Fériale</a></li>
+                            <li><a class="btn-transition" href="japon.html">Ibni</a></li>
+                            <li><a class="btn-transition" href="salvador.html">Jérôme</a></li>
+                            <li><a class="btn-transition" href="grece.html">Joris</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-deroulant">
+                        <a href="#">Continents</a>
                         <ul class="sous-menu">
                             <li><a class="btn-transition" href="europe.html">Europe</a></li>
                             <li><a class="btn-transition" href="asie.html">Asie</a></li>
@@ -24,11 +35,16 @@
                             <li><a class="btn-transition" href="outre-mer.html">Outre-Mer</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Wanderers</a></li>
-                    <li><a href="">Contact</a></li>
                 </ul>
+                <a href="contact.html" class="btn-contact">
+                    <span>Contact</span>
+                    <svg>
+                        <polyline class="remplissage" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+                        <polyline class="ligne-animee" points="0 0, 150 0, 150 55, 0 55, 0 0"></polyline>
+                    </svg>
+                </a>
             </nav>
-        </div>              
+        </div>
     </header>
     <main>
         <section class="hero">
