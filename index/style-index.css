@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+div {
+    display: flex;
+    border: solid 5px cyan;
+}
+
+/*présentation*/
+#presentation {
+    border: 5px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.présentation {
+    border: yellow 5px solid;
+    width: 408px;
+    height: 259px;
+    /*background-color: #06A3E6;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;*/
+}
+.image-présentation {
+   border: solid 5px black;
+}
+.taille-div-img {
+    border: solid 5px goldenrod;
+}
+.text {
+    border: solid 5px cyan;
+    flex-direction: column;
+}
