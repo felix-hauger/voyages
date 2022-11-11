@@ -29,27 +29,27 @@ div {
 }
 /*les images en bacground*/
 #japon {
-    background-image: url(../img/jap-sushi.jpg);
+    background-image: url(../media/img/img-jo/jap-sushi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #france {
-    background-image: url(../img/fr.jpg);
+    background-image: url(../media/img/img-jo/fr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #salvador {
-    background-image: url(../img/salvador.jpg);
+    background-image: url(../media/img/img-jo/salvador1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #polynésie {
-    background-image: url(../img/polynésie.jpg);
+    background-image: url(../media/img/img-jo/polynésie1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #grèce {
-    background-image: url(../img/parthénon.jpg);
+    background-image: url(../media/img/img-jo/parthénon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

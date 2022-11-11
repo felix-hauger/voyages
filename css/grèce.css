@@ -33,7 +33,7 @@ header nav .sous-menu a {
 } 
 
 .menu-deroulant > a:hover::after {
-    background-image: url('../img/grèce.svg');
+    background-image: url('../media/img/img-jo/grèce.svg');
 }
 
 /*section1*/
@@ -152,12 +152,12 @@ p {
     color: white;
 }
 #plat-cuisiné {
-    background-image: url(../img/moussaka-grece..jpeg);
+    background-image: url(../media/img/img-jo/moussaka-grece..jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #entré {
-    background-image: url(../img/grece-salade.1550284.w630.jpg);
+    background-image: url(../media/img/img-jo/grece-salade.1550284.w630.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -178,32 +178,32 @@ p {
     margin-bottom: 20px;
 }
 #viande {
-    background-image: url(../img/Souvlaki_1.jpg);
+    background-image: url(../media/img/img-jo/Souvlaki_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #poisson {
-    background-image: url(../img/xifias1.jpg);
+    background-image: url(../media/img/img-jo/xifias1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #vege {
-    background-image: url(../img/yémista.jpg);
+    background-image: url(../media/img/img-jo/yémista.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #patisserie {
-    background-image: url(../img/bouk.jpg);
+    background-image: url(../media/img/img-jo/bouk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #boisson {
-    background-image: url(../img/retsina1.jpg);
+    background-image: url(../media/img/img-jo/retsina1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #remarque {
-    background-image: url(../img/cafeturc1.jpg);
+    background-image: url(../media/img/img-jo/cafeturc1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
