@@ -28,6 +28,7 @@ body, html {
 header {
     width: 100%;
     position: absolute;
+    text-shadow: 1px 1px 15px purple;
 }
 
 .header-container {
@@ -51,6 +52,9 @@ nav {
     /*background-color: rgba(255, 0, 0, 0.44);*/
 }
 
+header li a {
+    color: navy;
+}
 /****************menu déroulant**************************/
 
 .sous-menu {
@@ -58,10 +62,11 @@ nav {
     flex-direction: column;
     position: absolute;
     display: none;
+    width: 135px;
 }
 
 .navbar a {
-    padding: 18px 0;
+    padding: 29px 34px;
     /*border-left: 1px solid #ccc9c9;*/
     text-decoration: none;
     /*color: white;*/
@@ -83,11 +88,19 @@ nav {
 .navbar li:hover ul {
     display: block;
     background-color: rgba(255, 255, 255, 72%);
-    margin-top: 11px;
+    /*margin-top: 11px;*/
     box-shadow: 2px 3px 5px 0px;
     display: flex;
-  }
+}
 
+.navbar li:hover > a {
+    background-color: #ffa4c9a3;
+}
+
+
+.sous-menu li:hover a {
+    background-color: #ffa4c9a3;
+}
 
 /***************fin du menu déroulant *****************/
 header ul {
