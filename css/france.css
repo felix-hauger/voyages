@@ -80,17 +80,32 @@ header nav .sous-menu a {
     border-top: 3px solid #ccc;
 }
 
-#specialites-fr .specialite {
-    border: 1px solid black;
+
+
+#specialites-fr .specialite .centrage {
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #eee;
 }
 
-#specialites-fr .specialite:nth-child(even) {
+#specialites-fr .specialite {
+    background-color: #002654;
+    background-image: linear-gradient(#002654, #fff);
+}
+
+#specialites-fr .specialite:nth-child(even) .centrage {
     flex-direction: row-reverse;
-    text-align: right;
+    /* text-align: right; */
+    /* background-color: #CD1125; */
     /* background-color: lime; */
+}
+
+#specialites-fr .specialite:nth-child(odd) {
+    background-color: #CD1125;
+    background-image: linear-gradient(#fff, #CD1125);
+    border-bottom: 3px solid #ccc;
 }
 
 #specialites-fr .specialite .contenu-img {
