@@ -71,10 +71,13 @@ header nav .sous-menu a {
 }
 
 #specialites-fr h2 {
-    /* background-color: red; */
-    border: 1px solid red;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.5)), url(../media/img/fr/eiffel-tower-g75a90f32d_1920.jpg);
+    font-size: 42px;
+    color: #eee;
+    text-shadow: 0px 3px 3px rgb(0 0 0 / 25%);
+    border-top: 3px solid #ccc;
 }
 
 #specialites-fr .specialite {
