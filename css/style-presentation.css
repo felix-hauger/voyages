@@ -4,10 +4,6 @@ body {
 #section-présentation {
     background: #EF7E7E;
 }
-div {
-    display: flex;
-    /*border: solid 5px cyan;*/
-}
 
 /*présentation*/
 #presentation {

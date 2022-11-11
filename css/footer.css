@@ -40,3 +40,7 @@ footer {
 .footer div p {
     color: white;
 }
+
+.mark {
+    text-transform: uppercase;
+}
