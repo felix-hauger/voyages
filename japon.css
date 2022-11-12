@@ -14,7 +14,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
-/*-----------schroll----------------*/
+/*-----------scrollbar----------------*/
 
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
@@ -501,6 +501,7 @@ footer {
 
 .container-footer {
     min-width: 80%;
+    width: 80%;
     display: flex;
     margin: auto;
     justify-content: space-around;
