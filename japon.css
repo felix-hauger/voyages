@@ -13,6 +13,24 @@ body, html {
     font-family: 'Roboto Slab', serif;
     font-family: 'Roboto', sans-serif;
 }
+
+/*-----------schroll----------------*/
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgb(10, 10, 10);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #FFA4C9;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(6, 6, 6);  /* creates padding around scroll thumb */
+  }
+
 /*****************header*************************************/
 .hero {
     background-image: url(japan_header_bg.jpg);
@@ -473,43 +491,7 @@ mask-size: 0% 100%
 	}	
 
 /********************footer**************************/
-/*footer {
-    background-color: #E75454;;
-    padding: 3% 0%;
-}
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;    
-}
-
-.description{
-    width: 33%;
-}
-
-.droit{
-    text-align: center;
-    margin-top: 4%;    
-}
-
-.description a {
-    display: block;
-    text-decoration: none;
-    text-decoration: none;
-    border: solid 1px black;
-    width: 40%;
-    margin: 2% auto;
-    padding: 1.5%;
-    color: white;
-    background-color: black;
-}
-
-.footer div p {
-    color: white;
-}
-*/
 
 footer {
     background-color: #26272b;
@@ -561,7 +543,6 @@ footer li {
 
 /* -----------formulaire contact----------*/
 
- 
 
 footer form{
 	display: inline-block;
