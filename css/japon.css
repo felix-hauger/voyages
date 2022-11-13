@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 
 /*****************header*************************************/
 .hero {
-    background-image: url("media/img/img-japon/japan_header_bg.jpg");
+    background-image: url("../media/img/img-japon/japan_header_bg.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ h1 {
 /*******************section avec contenu***********************/
 
 .osaka {
-    background-image: url("https://subetenihon.fr/wp-content/uploads/elementor/thumbs/subete-menu-pklbwcydu5mdviyfwjde6hmaumiehe5ajmonptpao0.jpg");
+    background-image: url("../media/img/img-japon/background-osaka.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -234,7 +234,7 @@ h1 {
 }
 
 .nara {
-    background-image: url("https://dailygeekshow.com/wp-content/uploads/2021/09/une-villes-japon.jpg");
+    background-image: url("../media/img/img-japon/background-nara.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -247,7 +247,7 @@ h1 {
 
 
 .kyoto {
-    background-image: url("https://www.kanpai.fr/sites/default/files/uploads/2021/10/kinkaku-ji-19.jpg");
+    background-image: url("../media/img/img-japon/background-kyoto.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -256,7 +256,7 @@ h1 {
 }
 
 .tokyo {
-    background-image: url("https://ns.clubmed.com/FEAM/Marketing/Omnichannel/SEO/LPOTHERS/VAT-1330/GettyImages-513755057.jpg");
+    background-image: url("../media/img/img-japon/background-tokyo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -265,7 +265,7 @@ h1 {
 }
 
 .mont-fuji {
-    background-image: url("https://koreus.cdn.li/media/201502/128-insolite-07.jpg");
+    background-image: url("../media/img/img-japon/background-mont_fuji.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -274,7 +274,7 @@ h1 {
 }
 
 .itsukushima {
-    background-image: url("https://wa-sakura.fr/wp-content/uploads/2020/05/%C3%9C%C3%84%C3%B4%C3%A7%C3%89_%C3%84%C3%B0.jpg");
+    background-image: url("../media/img/img-japon/background-itsukushima.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -283,7 +283,7 @@ h1 {
 }
 
 .shirakawago {
-    background-image: url("https://www.kanpai.fr/sites/default/files/styles/og/public/uploads/2016/11/shirakawago-3.jpg");
+    background-image: url("../media/img/img-japon/background-shirakawago.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -292,7 +292,7 @@ h1 {
 }
 
 .nikko {
-    background-image: url("https://franks-travelbox.com/wp-content/uploads/2017/11/japan-einer-der-kleineren-wasserfacc88lle-im-nikko-nationalpark-in-japan-tamapapat-shutterstock-1200x800.jpg");
+    background-image: url("../media/img/img-japon/background-nikko.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -301,7 +301,7 @@ h1 {
 }
 
 .hiroshima {
-    background-image: url("https://i0.wp.com/destinationjapon.fr/wp-content/uploads/2019/09/hiroshima_ville_blog.jpg?fit=1580%2C710&ssl=1");
+    background-image: url("../media/img/img-japon/background-hiroshima.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -310,7 +310,7 @@ h1 {
 }
 
 .okinawa {
-    background-image: url("https://www.ana.co.jp/japan-travel-planner/okinawa/img/hero.jpg");
+    background-image: url("../media/img/img-japon/background-okinawa.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -319,7 +319,7 @@ h1 {
 }
 
 .nagoya {
-    background-image: url("https://cdn.generationvoyage.fr/2019/02/loger-nagoya-e1550766396823.jpg");
+    background-image: url("../media/img/img-japon/background-nagoya.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
