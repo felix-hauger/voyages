@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Uncial Antiqua";
+    src: url("../fonts/UncialAntiqua-Regular.ttf");
+}
+@font-face {
+    font-family: "Dyonisius";
+    src: url("../fonts/Dyonisius.ttf");
+}
+
 /*header*/
 header nav li a:hover {
     background-color: white;

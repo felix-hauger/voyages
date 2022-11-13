@@ -6,7 +6,7 @@
 /* partie header */
 header {
     height: 35vh;
-    background-image: url("../img/salvador.jpg");
+    background-image: url("../media/img/salvador.jpg");
 }
 h1 {
     padding-top: 3%;
@@ -146,11 +146,7 @@ footer{
     width: 100%;
 }
 .description,.contactes{
-    width: 33%;
-
-    
-    
-   
+    width: 33%; 
 }
 .newlester{
     padding: 2%;
@@ -164,24 +160,10 @@ footer{
     text-align: center;
     font-family: arial;
     font-size: 15px;
-    
-    
-    
+}
 
-}
-.contacte{
-    /* padding-bottom: 5%;
-    display: flex; */
-}
-.contactesuisse{
-    /* margin-top: 30%; */
-    
-}
 .pcontacte{
 margin-top: 7%;
-}
-.test{
-    /* margin-top: 10%; */
 }
 .droit{
     text-align: center;
