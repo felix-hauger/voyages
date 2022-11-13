@@ -24,6 +24,10 @@ header {
     display: flex;
 }
 
+header .menu-deroulant {
+    z-index: 100;
+}
+
 /* Pour centrer l'icône et la nav */
 header .centrage {
     display: flex;
@@ -160,7 +164,7 @@ header nav .sous-menu a {
 
 .btn-transition:hover {
     color: #E75454;
-    background: transparent;
+    background: #eee;
 }
 
 .btn-transition:hover:before {
