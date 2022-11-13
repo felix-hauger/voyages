@@ -3,25 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-footer{
+
+footer {
     background-color: #E75454;;
     padding: 3% 0%;
-   
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;    
 }
+
 .description{
     width: 33%;
+    color: white;
 }
+
 .droit{
     text-align: center;
     margin-top: 4%;    
 }
-.description a{
+
+.description a {
     display: block;
     text-decoration: none;
     text-decoration: none;
@@ -32,6 +37,11 @@ footer{
     color: white;
     background-color: black;
 }
-.footer  div p{
+
+.footer div p {
     color: white;
+}
+
+.mark {
+    text-transform: uppercase;
 }
