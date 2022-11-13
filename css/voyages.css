@@ -254,3 +254,29 @@ header nav .sous-menu a {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+/* partie carte du monde */
+.cartedumonde{
+   width: 80%;
+   height: auto;
+   
+}
+.partie{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.divdrapeaux {
+    display: flex;
+    justify-content: space-around;
+}
+.divdrapeaux a {
+    width: 15%;
+}
+
+.divdrapeaux a img {
+    width: 100%;
+}
+
+
+
+
