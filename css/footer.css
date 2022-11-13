@@ -18,6 +18,7 @@ footer {
 
 .description{
     width: 33%;
+    color: white;
 }
 
 .droit{
@@ -39,4 +40,8 @@ footer {
 
 .footer div p {
     color: white;
+}
+
+.mark {
+    text-transform: uppercase;
 }
