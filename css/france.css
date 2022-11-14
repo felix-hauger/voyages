@@ -118,6 +118,7 @@ header nav .sous-menu a {
     height: 80%;
     display: flex;
     align-items: center;
+    box-shadow: 0 10px 50px -10px #333;
 }
 
 #specialites-fr .specialite .contenu-img img {
